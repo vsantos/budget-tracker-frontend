@@ -1,0 +1,30 @@
+@import './colors';
+@import '@/assets/scss/_boostrap-vue.scss';
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: $dark-grayish-blue;
+    color: $light-gray;
+  }
+  
+  #app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+  }
+  
+  #nav {
+    padding: 30px;
+  }
+  
+  #nav a {
+    font-weight: bold;
+    color: $light-gray;
+  }
+  
+  #nav a.router-link-exact-active {
+    color: $soft-green;
+  }
